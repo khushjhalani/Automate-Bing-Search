@@ -13,7 +13,6 @@ import argparse as ap
 # edge_options.add_argument("user-data-dir=C:\Users\[USERNAME]\AppData\Local\Microsoft\Edge\User Data\Default")
 # driver = webdriver.Edge(service=Service(executable_path=edge_driver_path), options=edge_options)
 
-# driver=webdriver.Edge()
 
 def get_arguments():
     parser = ap.ArgumentParser()
