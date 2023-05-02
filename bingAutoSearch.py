@@ -70,7 +70,7 @@ if __name__=="__main__":
         driver.get("https://rewards.bing.com/")
         sleep(3)
         
-        # driver.execute_script("window.open('');")
+        driver.execute_script("window.open('');")
         driver.switch_to.window(driver.window_handles[-1])
         searchesDone += randomBingSearch(driver, inp.searches-searchesDone)
         driver.quit()
