@@ -6,7 +6,7 @@ from selenium.webdriver.edge.options                import Options
 import argparse as ap
 import logging
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='bingAutoSearch.log', filemode='w')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='bingAutoSearch.log', filemode='a')
 
 # #TO OPEN MY DEFAULT EDGE PROFILE AND NOT OPEN A NEW BOT PROFILE
 # edge_driver_path = "C:\Program Files (x86)\edgedriver_win64"

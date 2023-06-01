@@ -6,7 +6,7 @@ from selenium.webdriver.edge.options                import Options
 import argparse as ap
 import logging
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',filename='bingMobileSearch.log', filemode='w')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',filename='bingMobileSearch.log', filemode='a')
 
 def get_arguments():
     parser = ap.ArgumentParser()
